@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { PlatoBiography } from "./components/Plato-biography";
-import { Works } from "./components/Works";
+import  Works  from "./components/Works-cards";
 
 function App() {
   return (
