@@ -1,0 +1,31 @@
+body {
+    
+    background-image: url('/plato.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.typewrite-button {
+    font-size: 1.5em; /* Ajusta esto según necesites */
+    padding: 20px 40px; /* Ajusta el padding para hacer el botón más grande */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa el mouse */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el hover */
+    width: auto; /* Ajusta el ancho automáticamente según el contenido */
+    max-width: 200px; /* Establece un ancho máximo para el botón */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+.typewrite-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Ligeramente más grande al pasar el mouse */
+}
+
+.typewrite-button:active {
+    transform: scale(0.95); /* Efecto de clic */
+}
